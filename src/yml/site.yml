@@ -1,0 +1,26 @@
+name: BearWithMe
+title: BearWithMe | Aman's blog
+description: This is a blog about my life experiences... mostly rants lol.
+tags:
+  - blog
+  - template
+  - jekyll
+  - theme
+  - netlify
+show_hero: True
+menu:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Contact
+    url: /contact
+  - title: Feed
+    url: /feed.xml
+email: bhaloo.aman@gmail.com
+# See: https://disqus.com/
+disqus_username: amnagrawal
+# Contact Form Setting
+# See: https://formspree.io/
+formspree_form_id: formspree_form_id
+paginate: 12
