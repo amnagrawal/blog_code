@@ -7,7 +7,7 @@ tags:
   - jekyll
   - theme
   - netlify
-show_hero: True
+show_hero: False
 menu:
   - title: Home
     url: /

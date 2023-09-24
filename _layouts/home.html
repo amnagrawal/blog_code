@@ -40,6 +40,18 @@ layout: main
             </div>
         </section>
     {% endif %}
+
+    <section class="hero">
+        <div id="particles-js", style="height: 100%; width: auto">
+
+            <div id="blockquote", class="content" style="color:white;font:20px bold;white-space:pre-wrap; pointer-events: none">
+                <h2>{{ site.description }}</h2>
+            </div>
+        </div>
+        <!-- scripts -->
+        <script src="particles.js"></script>
+        <script src="app.js"></script>
+    </section>
     <!-- Posts -->
     <section id="grid" class="row flex-grid">
         {% for post in posts offset: offset %}
@@ -163,17 +175,6 @@ layout: main
                     "name": "{{ author.display_name }}",
                     "url": "{{ author.url | prepend: site.baseurl | prepend: site.url }}"
                 },
-{#                "publisher": {#}
-{#                    "@type": "Organization",#}
-{#                    "name": "{{ site.name }}",#}
-{#                    "url": "{{ site.url }}{{site.baseurl}}/",#}
-{#                    "logo": {#}
-{#                        "@type": "ImageObject",#}
-{#                        "url": "{{ site.url }}{{site.baseurl}}/assets/img/blog-image.png",#}
-{#                        "width": "600",#}
-{#                        "height": "315"#}
-{#                    }#}
-{#                },#}
                 "mainEntityOfPage": "True",
                 "genre": "{{ post.category | capitalize }}",
 		        "articleSection": "{{ post.category | capitalize }}",
