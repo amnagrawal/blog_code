@@ -37,7 +37,7 @@ function config() {
   return gulp.src('src/yml/_config.yml')
     .pipe(include())
     .on('error', console.error)
-    .pipe(gulp.dest('./'));
+    .pipe(gulp.dest('./')).on('error', console.error);
 }
 
 /**
@@ -98,18 +98,18 @@ function reload(done) {
 
 function yamlTheme() {
   return gulp.src('src/yml/theme.yml')
-    .pipe(yaml({ schema: 'DEFAULT_SAFE_SCHEMA' }))
-    .pipe(gulp.dest('src/tmp/'));
+    .pipe(yaml({ schema: 'DEFAULT_SAFE_SCHEMA' })).on('error', console.error)
+    .pipe(gulp.dest('src/tmp/')).on('error', console.error);
 }
 
 function jsonTheme() {
   return fs.createReadStream('src/tmp/theme.json')
     .pipe(jsonSass({
       prefix: '$theme: ',
-    }))
-    .pipe(source('src/tmp/theme.json'))
-    .pipe(rename('_sass/_theme.scss'))
-    .pipe(gulp.dest('./'));
+    })).on('error', console.error)
+    .pipe(source('src/tmp/theme.json')).on('error', console.error)
+    .pipe(rename('_sass/_theme.scss')).on('error', console.error)
+    .pipe(gulp.dest('./')).on('error', console.error);
 }
 
 async function cleanTheme() {
@@ -127,14 +127,14 @@ const theme = gulp.series(yamlTheme, jsonTheme, cleanTheme);
 function mainJs() {
   notify('Building JS files...');
   return gulp.src('src/js/main/**/*.js')
-    .pipe(sourcemaps.init())
-    .pipe(uglify())
-    .pipe(concat('scripts.min.js'))
-    .pipe(plumber())
-    .pipe(sourcemaps.write('.'))
-    .pipe(gulp.dest('_site/assets/js/'))
-    .pipe(browserSync.reload({ stream: true }))
-    .pipe(gulp.dest('assets/js'));
+    .pipe(sourcemaps.init()).on('error', console.error)
+    .pipe(uglify()).on('error', console.error)
+    .pipe(concat('scripts.min.js')).on('error', console.error)
+    .pipe(plumber()).on('error', console.error)
+    .pipe(sourcemaps.write('.')).on('error', console.error)
+    .pipe(gulp.dest('_site/assets/js/')).on('error', console.error)
+    .pipe(browserSync.reload({ stream: true })).on('error', console.error)
+    .pipe(gulp.dest('assets/js')).on('error', console.error);
 }
 
 /**
@@ -145,7 +145,7 @@ function mainJs() {
 function previewJs() {
   notify('Copying preview files...');
   return gulp.src('src/js/preview/**/*.*')
-    .pipe(gulp.dest('assets/js/'));
+    .pipe(gulp.dest('assets/js/')).on('error', console.error);
 }
 
 /**
@@ -163,9 +163,9 @@ const js = gulp.parallel(mainJs, previewJs);
 function images() {
   notify('Copying image files...');
   return gulp.src('src/img/**/*.{jpg,png,gif,svg}')
-    .pipe(plumber())
-    .pipe(imagemin({ optimizationLevel: 5, progressive: true, interlaced: true }))
-    .pipe(gulp.dest('assets/img/'));
+    .pipe(plumber()).on('error', console.error)
+    .pipe(imagemin({ optimizationLevel: 5, progressive: true, interlaced: true })).on('error', console.error)
+    .pipe(gulp.dest('assets/img/')).on('error', console.error);
 }
 
 /**
