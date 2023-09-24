@@ -1,17 +1,18 @@
 ---
+date: 2016-09-23
 layout: post
 title: It ends at from where it all started
-description: "Placed at RBS"
-date: 2016-09-23
+description: Placed at RBS
+image: https://cdn.stocksnap.io/img-thumbs/960w/bird-leaves_AB6A5G88IP.jpg
 category: RBS
-imagefeature: rbs-team.jpg
-comments: true
 tags:
-    - work
-    - life-event
+  - work
+  - life-event
 author: grizzly-bear
+comments: true
+paginate: false
+imagefeature: rbs-team.jpg
 ---
-
 So friends, all the hard work has finally paid off. And now I have got a placement offer from **Royal Bank of Scotland (RBS)**.
 
 About an year before, I wasn't eligible to sit for companies that came to recruit summer interns, because somehow I had managed to score a backlog in the 3rd semester of my college. It was only after I cleared the back in 5th semester, I was allowed to sit for the companies which came to our college in 6th semester (which weren't much as the placement season begins in the odd semester). Now as it is evident from the title, RBS was the first company that I appeared for, which came to our college in the month of February this year. Although I did manage to qualify for the final rounds at RBS office (in Gurgaon), I couldn't bag the internship opportunity. Now, a week before, RBS came to recruit again, this time for a permanent position at their campuses. And the rest is history!
@@ -27,4 +28,3 @@ While I am at it, I would like to thank a few people who have helped me achieve 
 And the friends who I haven't mentioned here, you all are just as important to me. A very hearty congratulations to all those who are selected along with me, especially Armaan Kohli and Vanshree Garg who are from my batch only. And a special thanks to the RBS team for giving us this opportunity!
 
 > Dear Lord, if this is a dream... Please don't wake me up!
-
