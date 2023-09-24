@@ -41,17 +41,20 @@ layout: main
         </section>
     {% endif %}
 
-    <section class="hero">
-        <div id="particles-js", style="height: 100%; width: auto">
+    {% if paginator == nil or paginator.page == 1 %}
+        <section class="hero">
 
-            <div id="blockquote", class="content" style="color:white;font:20px bold;white-space:pre-wrap; pointer-events: none">
-                <h2>{{ site.description }}</h2>
+            <div id="particles-js", style="height: 100%; width: auto">
+
+                <div id="blockquote", class="content" style="color:white;font:20px bold;white-space:pre-wrap; pointer-events: none">
+                    <h2>{{ site.description }}</h2>
+                </div>
             </div>
-        </div>
-        <!-- scripts -->
-        <script src="particles.js"></script>
-        <script src="app.js"></script>
-    </section>
+            <!-- scripts -->
+            <script src="particles.js"></script>
+            <script src="app.js"></script>
+        </section>
+    {% endif %}
     <!-- Posts -->
     <section id="grid" class="row flex-grid">
         {% for post in posts offset: offset %}

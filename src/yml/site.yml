@@ -22,5 +22,5 @@ email: bhaloo.aman@gmail.com
 disqus_username: amnagrawal
 # Contact Form Setting
 # See: https://formspree.io/
-formspree_form_id: formspree_form_id
-paginate: 12
+#formspree_form_id: formspree_form_id
+paginate: 8
