@@ -70,7 +70,7 @@ paginate_content:
   collections:
     - posts
   auto: false
-  separator: "--page-break--"
+  separator: ","
   permalink: "/:num/"
   seo_canonical: true
   properties:
