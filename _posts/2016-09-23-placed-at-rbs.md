@@ -10,7 +10,7 @@ tags:
   - life-event
 author: grizzly-bear
 comments: true
-paginate: true
+paginate: false
 imagefeature: rbs-team.jpg
 ---
 So friends, all the hard work has finally paid off. And now I have got a placement offer from **Royal Bank of Scotland (RBS)**.
