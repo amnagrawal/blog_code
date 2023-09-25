@@ -2,16 +2,15 @@
 date: 2016-09-23
 layout: post
 title: It ends at from where it all started
-description: Placed at RBS
+subtitle: Placed at RBS
 image: https://cdn.stocksnap.io/img-thumbs/960w/bird-leaves_AB6A5G88IP.jpg
-category: RBS
+category: work
 tags:
   - work
   - life-event
 author: grizzly-bear
 comments: true
 paginate: false
-imagefeature: rbs-team.jpg
 ---
 So friends, all the hard work has finally paid off. And now I have got a placement offer from **Royal Bank of Scotland (RBS)**.
 
