@@ -44,11 +44,8 @@ layout: main
     {% if paginator == nil or paginator.page == 1 %}
         <section class="hero">
 
-            <div id="particles-js", style="height: 100%; width: auto">
-
-                <div id="blockquote", class="content" style="color:white;font:20px bold;white-space:pre-wrap; pointer-events: none">
-                    <h2>{{ site.description }}</h2>
-                </div>
+            <div id="particles-js", style="height: 100%; width: auto; position: relative;">
+                <span id="dynamic-description" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color:white;font: bold 1.5rem Arial, sans-serif; white-space:pre-wrap; text-align: center;"></span>
             </div>
             <!-- scripts -->
             <script src="particles.js"></script>

@@ -5,6 +5,7 @@ layout: compress
 <!DOCTYPE html>
 <html lang="{{ site.language }}" class="no-js">
     {% include head.html %}
+    {% include extra-js.html %}
     <body class="main-page has-push-menu">
         {% include svg-icons.html %}
         {% include header.html %}
@@ -23,6 +24,35 @@ layout: compress
                 });
             }
         </script>
+
+
+{% if site.dynamic-typing %}
+    <script type="text/javascript" src="/assets/js/typed.js"></script>
+    <script type="text/javascript">
+        let myQuotes = [];
+
+        {% for line in site.lines %}
+            myQuotes.push("{{ line.text }}");
+        {% endfor %}
+
+        {% if site.shuffle %}
+            myQuotes.sort(() => Math.random() - 0.5);
+        {% endif %}
+
+        $("#{{ site.dynamic-text-element-id }}").typed({
+                      strings: myQuotes,
+                      typeSpeed: {{ site.type-speed }},
+                      backDelay: {{ site.delete-delay }},
+                      startDelay: {{ site.start-delay }},
+                      loop: {{ site.loop }},
+                      loopCount: {{ site.loop-count }},
+                      cursorChar: "|"
+                    });
+
+    </script>
+{% endif %}
+
+
     </body>
 </html>
 
