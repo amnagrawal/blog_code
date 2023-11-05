@@ -1,0 +1,35 @@
+---
+date: 2023-11-05T18:48:05.000Z
+layout: post
+title: First Post
+description: >-
+  Hello World
+image: >-
+  https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559821647/theme6_qeeojf.jpg
+optimized_image: >-
+  https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559821647/theme6_qeeojf.jpg
+category: blog
+tags:
+  - welcome
+  - blog
+author: grizzlybear
+paginate: false
+---
+  
+Hi everyone! Thanks for stopping by on this blog and I really appreciate you taking your time out to read it. 
+Since this is the first post, I would like to give you a bit of a background as to how I got to this blog.
+
+At the time of building this blog, I was in transition phase of my career - from software engineer to quant researcher. 
+But since I have spent many years as a software engineer, I didn't want to lose touch to that set of skills. 
+I thought of building a blog as a personal project, which would be useful as sort-of-a-diary, and also improve my writing skills (as evident from this poorly written post).
+For new viewers I recommend checking out this blog on a desktop, since it looks a lot better on that (low-key flex).
+
+With that said, I want to bring your attention to something really important for the viewers. 
+Certain posts on this website could be unnerving to the readers. 
+Please note that these articles are a representation of my own personal views. 
+I'll try my best to not target them towards any individual. 
+However, if you still feel hurt, please refrain yourself from bothering me.
+
+That's all I need to say for today. Thank you for reading this, and keep an eye out for more "useful" posts in the future.
+
+P.S. A big thanks to Thiago Rossner for providing the template for this website.
