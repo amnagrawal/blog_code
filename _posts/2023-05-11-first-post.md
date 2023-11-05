@@ -5,7 +5,7 @@ title: First Post
 subtitle:
 description: Hello World
 image: /assets/img/uploads/hello.png
-optimized_image: /assets/img/uploads/hello.png
+optimized_image: /assets/img/uploads/hello-optimized.jpg
 category: blog
 tags:
   - welcome
