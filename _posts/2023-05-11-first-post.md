@@ -1,10 +1,11 @@
 ---
-date: 2023-11-05T18:48:05.000Z
+date: 2023-11-05
 layout: post
 title: First Post
+subtitle:
 description: Hello World
-image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559821647/theme6_qeeojf.jpg
-optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559821647/theme6_qeeojf.jpg
+image: /assets/img/uploads/hello.png
+optimized_image: /assets/img/uploads/hello.png
 category: blog
 tags:
   - welcome
@@ -12,9 +13,9 @@ tags:
 author: grizzlybear
 paginate: false
 ---
-\
-Hi everyone! Thanks for stopping by on this blog and I really appreciate you taking your time out to read it. 
-Since this is the first post, I would like to give you a bit of a background as to how I got to this blog.
+  
+Hi everyone! Thanks for stopping by on my blog. I really appreciate you taking your time out to read it. 
+Since this is the first post, I would like to give you a background as to how I got to this blog.
 
 At the time of starting to build this, I was in transition phase of my career - from software engineer to quant researcher. 
 But since I have spent many years as a software engineer, I didn't want to lose ground on those set of skills. 
@@ -36,4 +37,4 @@ Thank you for reading this, and keep an eye out for upcoming posts. But before e
 > Why the Gunpowder treason\
 > Should ever be forgot!
 
-P.S. A big thanks to Thiago Rossner - <https://github.com/thiagorossener> for providing the template for this website.
+P.S. A big thanks to [Thiago Rossner](https://github.com/thiagorossener) for providing the template for this website.

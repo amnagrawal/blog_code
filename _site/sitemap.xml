@@ -187,17 +187,10 @@
     
     
         <url>
-            <loc>/welcome-to-the-desert-of-the-real/21/</loc>
+            <loc>/first-post/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
-            <lastmod>2019-05-17</lastmod>
-        </url>
-    
-        <url>
-            <loc>/welcome-to-the-desert-of-the-real/26/</loc>
-            <changefreq>weekly</changefreq>
-            <priority>0.8</priority>
-            <lastmod>2019-05-17</lastmod>
+            <lastmod>2023-11-05</lastmod>
         </url>
     
         <url>
@@ -209,13 +202,6 @@
     
         <url>
             <loc>/welcome-to-the-desert-of-the-real/24/</loc>
-            <changefreq>weekly</changefreq>
-            <priority>0.8</priority>
-            <lastmod>2019-05-17</lastmod>
-        </url>
-    
-        <url>
-            <loc>/welcome-to-the-desert-of-the-real/23/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
             <lastmod>2019-05-17</lastmod>
@@ -236,7 +222,7 @@
         </url>
     
         <url>
-            <loc>/welcome-to-the-desert-of-the-real/22/</loc>
+            <loc>/welcome-to-the-desert-of-the-real/23/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
             <lastmod>2019-05-17</lastmod>
@@ -419,6 +405,27 @@
     
         <url>
             <loc>/welcome-to-the-desert-of-the-real/20/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2019-05-17</lastmod>
+        </url>
+    
+        <url>
+            <loc>/welcome-to-the-desert-of-the-real/21/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2019-05-17</lastmod>
+        </url>
+    
+        <url>
+            <loc>/welcome-to-the-desert-of-the-real/22/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2019-05-17</lastmod>
+        </url>
+    
+        <url>
+            <loc>/welcome-to-the-desert-of-the-real/26/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
             <lastmod>2019-05-17</lastmod>
@@ -765,13 +772,6 @@
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
             <lastmod>2015-09-06</lastmod>
-        </url>
-    
-        <url>
-            <loc>/birds-can-fly-but-this-you-knew-already/</loc>
-            <changefreq>weekly</changefreq>
-            <priority>0.8</priority>
-            <lastmod>2010-09-10</lastmod>
         </url>
     
     
