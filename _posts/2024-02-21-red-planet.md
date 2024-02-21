@@ -22,4 +22,4 @@ A﻿s a traveller, I try to make it a brand new experience for me. That means, I
 
 T﻿his trip was made even better by this habit of mine. The first two national parks I visited, was with a childhood friend of mine. He made all the travel arrangements, and saving me from seeing even a single photo of this place online beforehand. So when you scroll through these photos, imagine that one day you wake up and you're taken to this beautiful place, that you have never ever seen before. And cherry on top, it was my birthday when I went there.
 
-This was only an intro to the series of posts﻿, most likely one for each national park. I'll leave some photos here to give you a hang of what's coming next. I promise you it's only going to get better in the subsequent posts, so do give them a read. Thank you!
+This was only an intro to the series of posts﻿, most likely one for each national park. I'll soon leave some photos here to give you a hang of what's coming next. I promise you it's only going to get better from here!
